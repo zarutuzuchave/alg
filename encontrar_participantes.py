@@ -14,7 +14,7 @@ def encontrar_participante(id_busca, lista_participantes):
 # 1. pedir o ID pro usuário
 try:
     id_desejado_str = input("Digite o ID do participante desejado: ")
-    id_desejado = int(id_desejado_str) # Convert the input string to an integer
+    id_desejado = int(id_desejado_str) 
 except ValueError:
     print("ID inválido. Por favor, digite um número inteiro.")
     id_desejado = None # se ele digitar um id nao correspondente ele retorna none 
